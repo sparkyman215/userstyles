@@ -1,0 +1,60 @@
+@-moz-document domain("www.anandtech.com")
+{
+/* front page */
+  body
+  {
+    background: #292929!important;
+  }
+
+  .main_cont
+  {
+    background: #383838!important;
+    border-left: 8px solid #313131;
+    border-right: 8px solid #313131;
+  }
+
+  .sidebar, .header, .animenu
+  {
+    background: #383838!important;
+    color: #ccc;
+  }
+
+  .twitter
+  {
+    display: none;
+  }
+
+  .cont_box1_pic
+  {
+    background: #2b2b2b;
+    border: 1px solid #000000;
+  }
+
+  .pipeline
+  {
+    background: #4c4c4c;
+    color: #ccc;
+  }
+
+/* articles */
+  .blog_top_left h1, .blog_top_left h2, div.articleContent p
+  {
+    color: #ccc;
+  }
+
+  div.articleContent h3
+  {
+    color: #636dbb;
+  }
+
+  .blog_top_left ul li a
+  {
+    background: #272727;
+    border: 1px solid black;
+  }
+
+  .blog_comments
+  {
+    color: #ccc;
+  }
+}
