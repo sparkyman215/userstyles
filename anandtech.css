@@ -73,3 +73,13 @@ html body section.content section.main_cont div.sidepadding.review div.articleCo
     background: #313131 !important;
 }
 }
+
+@-moz-document url-prefix("https://www.anandtech.com/tag/") {
+body,
+h1.tag_title {
+    color: #ccc
+}
+.main_cont {
+    width: 700px;
+}
+}
