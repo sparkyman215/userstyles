@@ -25,39 +25,30 @@ body {
     /* set background color */
     background: #333;
 }
-/* header part */
-div.header_wrapper {
-    /* bar where semiE logo resides */
-    border-bottom: 3px solid #252525;
-    background: #1f1f1f;
-    border-top: 0px;
-    height: 105px;
+/*************** header ***************/
+div.header {
+    padding: 10px 0 0 !important;
 }
-.logo img {
-    /* change semiE logo to fit inside header wrapper */
-    position: absolute;
-    top: -55px;
-    height: 0;
-    width: 0;
-    padding: 40px 360px;
-    background-image: url(https://semiengineering.com/wp-content/themes/se_current/images/se_logo_blk.gif);
-    background-repeat: no-repeat;
+div.nav-menu_new-menu ul.nav-menu_new-menu,
+.nav-menu_second-level {
+    background: #1e1e1e;
+    border-bottom: 2px solid black;
 }
-div.nav-menu_wrapper {
-    /* where the different categories are - top of page */
-    background: #1b1b1b;
-    border-bottom: 3px solid #1b1b1b;
+.nav-menu_second-level li a,
+.nav-menu_new-menu li a {
+    background: #0000;
 }
-.nav-menu ul a:hover {
-    color: #ccc;
-}
-div.single_top_page_main_cat_button a {
-    /* the category button in each article top */
+.nav-menu_second-level li a:hover,
+.nav-menu_new-menu li a:hover {
     background: #215a92;
-    color: #333 !important;
-    box-shadow: inset 0px 0px 4px 0px #051521;
 }
-/* recommended papers sidebar */
+.nav-menu_second-level ul:last-child {
+    background: #0f0f0f;
+}
+.nav-menu_new-menu .mlb {
+    border-left: 0px solid #000;
+}
+/*************** recommended papers sidebar ***************/
 div.post_cnt,
 div.post_snippet,
 div.tag_list a,
@@ -77,7 +68,7 @@ div.post_snippet h3 {
 table.gsc-search-box td.gsc-input {
     background: #1d1d1d;
 }
-/* front page top stories */
+/*************** front page top stories ***************/
 div.post_snippet_l h3 {
     color: #215a92 !important;
 }
@@ -88,7 +79,7 @@ h3.special_reports {
     color: #bbb;
     background-color: #272727;
 }
-/* special reports headlines */
+/*************** special reports headlines ***************/
 div.special_reports_slides_wrapper {
     background: #1d1d1d;
     border: 2px solid #000;
@@ -104,7 +95,7 @@ div.special_reports_slides_exceprt {
 .special_reports_wrapper > div:nth-child(2) > div:nth-child(3) {
     width: 33.33% !important/* Resize special reports columns */
 }
-/* bottom next/last paper */
+/*************** bottom next/last paper ***************/
 div.pna_wrapper,
 div.pna_1,
 div.pna_r {
@@ -121,12 +112,12 @@ div.pna_r {
 .pna_wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
     width: 50%
 }
-/* knowledge center banner */
+/*************** knowledge center banner ***************/
 div.fp_kc_banner {
     background: #292929;
     padding: 4% 2%;
 }
-/* Leave a reply section */
+/*************** Leave a reply section ***************/
 .loop_post_wrapper {
     background: #1d1d1d;
     margin-bottom: 30px !important;
@@ -134,7 +125,7 @@ div.fp_kc_banner {
 #reply-title {
     color: #ccc;
 }
-/* footer */
+/*************** footer ***************/
 .footer_logo {
     background: #1d1d1d;
 }
